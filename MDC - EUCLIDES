@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+int a = 90,b = 30, c;
+
+c = a/b;
+printf("a/b = %d \n",c);
+
+c = b*c;
+printf("b*c = %d \n",c);
+
+c = a-c;
+printf("a-c = %d \n",c);
+
+c = a%b;
+printf("saida sera = %d\n",c);
+}
