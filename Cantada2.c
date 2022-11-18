@@ -15,7 +15,7 @@ int main(void)
     printf ("Qual o nome da pessoa mais gata de curitiba e região? ");
     scanf ("%s", resposta); // String não precisa colocar o "&" para a variável
        		
-    	if(strcmp(strlwr(resposta), senhacorreta) != 0) 
+    	if(strcmp(strlwr(resposta), senhacorreta) != 0) // O strcmp compara uma string com outra(resposta com a senhacorreta e o "strlwr" deixa a string ou carácter minúsculo
     		{
     			printf(" \n Páia!! Errou. \n Tente novamente \n "); // resposta informada se o usuário colocou algo DIFERENTE da senhacorreta
     		}
